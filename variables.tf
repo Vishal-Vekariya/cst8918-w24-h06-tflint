@@ -1,15 +1,13 @@
 # Define config variables
 variable "label_prefix" {
-  type    = string
-  default = "veka0011"
-  description = "A prefix used for naming resources"
+  type        = string
+  description = "Your college username. This will form the beginning of various resource names."
 }
-
 
 variable "region" {
   type        = string
-  default     = "East US"
-  description = "The Azure region where resources will be deployed"
+  default     = "westus3"
+  description = "The Azure region to deploy resources in"
 }
 
 variable "admin_username" {
